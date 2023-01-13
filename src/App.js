@@ -11,6 +11,7 @@ import Result from "./components/Result";
 import Navbar from "./components/Navbar";
 import React from "react";
 import Footer from "./components/Footer";
+import NotFound from "./components/NotFound";
 
 function App() {
 
@@ -24,7 +25,9 @@ function App() {
                   <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/q/:no" element={<Question/>}/>
-                    <Route path="/result" element={<Result/>}/>     
+                    <Route path="/result" element={<Result/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+
                   </Routes>
                 </Router>
               
