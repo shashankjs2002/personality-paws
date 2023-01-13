@@ -21,7 +21,7 @@ function App() {
           <Navbar/>
           {/* <div className="mid">
               <div className="content"> */}
-                <Router>
+                {/* <Router> */}
                   <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/q/:no" element={<Question/>}/>
@@ -29,7 +29,7 @@ function App() {
                     <Route path="*" element={<NotFound/>}/>
 
                   </Routes>
-                </Router>
+                {/* </Router> */}
               
             {/* </div> */}
           {/* </div> */}
