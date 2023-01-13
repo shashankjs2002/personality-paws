@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/personality-paws/static/css/main.56a98b5e.css",
+    "main.js": "/personality-paws/static/js/main.1b737bde.js",
+    "static/js/787.e2c14683.chunk.js": "/personality-paws/static/js/787.e2c14683.chunk.js",
+    "static/media/Certificate.png": "/personality-paws/static/media/Certificate.034c3d6d2e0dc191b134.png",
+    "static/media/HomePage.png": "/personality-paws/static/media/HomePage.f5b18cabb1e5b8bd65ab.png",
+    "index.html": "/personality-paws/index.html",
+    "main.56a98b5e.css.map": "/personality-paws/static/css/main.56a98b5e.css.map",
+    "main.1b737bde.js.map": "/personality-paws/static/js/main.1b737bde.js.map",
+    "787.e2c14683.chunk.js.map": "/personality-paws/static/js/787.e2c14683.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56a98b5e.css",
+    "static/js/main.1b737bde.js"
+  ]
+}
