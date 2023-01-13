@@ -9,13 +9,13 @@ const Result = () => {
 
   useEffect(() => {
     if(localStorage.getItem('stage') != 'result'){
-      navigate('/personality-paws/')
+      navigate('/')
     }  
   }, [])
 
   const resetQuiz = () => {
     localStorage.setItem('stage','home')
-    navigate('/personality-paws/')
+    navigate('/')
   }
   let username = localStorage.getItem('username')
   let text = `${username} is`;

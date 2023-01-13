@@ -22,9 +22,9 @@ function App() {
               <div className="content"> */}
                 <Router>
                   <Routes>
-                    <Route path="/personality-paws/" element={<Home/>}/>
-                    <Route path="/personality-paws/q/:no" element={<Question/>}/>
-                    <Route path="/personality-paws/result" element={<Result/>}/>     
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/q/:no" element={<Question/>}/>
+                    <Route path="/result" element={<Result/>}/>     
                   </Routes>
                 </Router>
               

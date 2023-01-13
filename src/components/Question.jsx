@@ -13,7 +13,7 @@ const Question = () => {
 
   useEffect(() => {
     if (localStorage.getItem('stage')!=`q`) {
-      navigate('/personality-paws/')
+      navigate('/')
     }
   }, [])
   
@@ -163,7 +163,7 @@ const Question = () => {
     }
    
 
-    navigate(`/personality-paws/q/${quesNo + 1}`)
+    navigate(`/q/${quesNo + 1}`)
     setProgress(progress + 10)
     if (quesNo == 9) {
       setSubmit(true)
@@ -178,7 +178,7 @@ const Question = () => {
     localStorage.setItem('stage', 'result')
     localStorage.setItem('animal',score[0])
 
-    navigate('/personality-paws/result')
+    navigate('/result')
   }
   const [n, setN] = useState(Math.floor(Math.random() * 4)) // First shuffle
   const [m, setM] = useState(Math.floor(Math.random() * 7))

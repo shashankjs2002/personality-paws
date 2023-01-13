@@ -11,7 +11,7 @@ const Home = () => {
     e.preventDefault();
     localStorage.setItem('stage', 'q')
     localStorage.setItem('username',username)
-    navigate('/personality-paws/q/1')
+    navigate('/q/1')
 
   }
   const onchange = (e) => {
