@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/personality-paws.10-news.tk/static/css/main.56a98b5e.css",
-    "main.js": "/personality-paws.10-news.tk/static/js/main.7fe0e664.js",
-    "static/js/787.633826bc.chunk.js": "/personality-paws.10-news.tk/static/js/787.633826bc.chunk.js",
-    "static/media/Certificate.png": "/personality-paws.10-news.tk/static/media/Certificate.034c3d6d2e0dc191b134.png",
-    "static/media/HomePage.png": "/personality-paws.10-news.tk/static/media/HomePage.f5b18cabb1e5b8bd65ab.png",
-    "index.html": "/personality-paws.10-news.tk/index.html",
-    "main.56a98b5e.css.map": "/personality-paws.10-news.tk/static/css/main.56a98b5e.css.map",
-    "main.7fe0e664.js.map": "/personality-paws.10-news.tk/static/js/main.7fe0e664.js.map",
-    "787.633826bc.chunk.js.map": "/personality-paws.10-news.tk/static/js/787.633826bc.chunk.js.map"
+    "main.css": "/static/css/main.56a98b5e.css",
+    "main.js": "/static/js/main.fc9ac5f2.js",
+    "static/js/787.633826bc.chunk.js": "/static/js/787.633826bc.chunk.js",
+    "static/media/Certificate.png": "/static/media/Certificate.034c3d6d2e0dc191b134.png",
+    "static/media/HomePage.png": "/static/media/HomePage.f5b18cabb1e5b8bd65ab.png",
+    "index.html": "/index.html",
+    "main.56a98b5e.css.map": "/static/css/main.56a98b5e.css.map",
+    "main.fc9ac5f2.js.map": "/static/js/main.fc9ac5f2.js.map",
+    "787.633826bc.chunk.js.map": "/static/js/787.633826bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56a98b5e.css",
-    "static/js/main.7fe0e664.js"
+    "static/js/main.fc9ac5f2.js"
   ]
 }
