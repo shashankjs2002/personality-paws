@@ -34,6 +34,17 @@ const Home = () => {
         <input className="form-control me-2" name='username' value={username} onChange={onchange} type='text' placeholder="Enter Your Name"/>
         <button className="btn btn-outline-success" onClick={submitName} style={{minWidth: "96px"}}>Start Quiz</button>
       </form>
+
+      <ins className="adsbygoogle"
+        style={{display:"block"}}
+        data-ad-client="ca-pub-6847172398832884"
+        data-ad-slot="4979889589"
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+      </ins>
+     <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
     </div>
     </div>
     </div>
