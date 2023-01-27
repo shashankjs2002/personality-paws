@@ -3,6 +3,12 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
+      <div className='ad-space'>
+        
+        Space for ads 🙃
+        <br/>
+        May be adblocker is active 😒
+        </div>
         <nav className="nav-light navbar navbar-expand-lg 
         "
         >

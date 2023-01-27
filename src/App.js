@@ -9,12 +9,12 @@ import {
 } from 'react-router-dom'
 import Result from "./components/Result";
 import Navbar from "./components/Navbar";
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "./components/Footer";
 import NotFound from "./components/NotFound";
 
 function App() {
-
+ 
   return (
 
     <div className="App">

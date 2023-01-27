@@ -11,9 +11,17 @@ const Home = () => {
     e.preventDefault();
     localStorage.setItem('stage', 'q')
     localStorage.setItem('username',username)
+    localStorage.setItem('qNo', 1)
+    localStorage.setItem('n',Math.floor(Math.random() * 4))
+    localStorage.setItem('m',Math.floor(Math.random() * 7))
+    localStorage.setItem('o',Math.floor(Math.random() * 7))
+    localStorage.setItem('lang',0)
+    localStorage.setItem('toggle','right')
+    localStorage.setItem('switch','checked')
+    
     navigate('/q/1')
-
   }
+  
   const onchange = (e) => {
     setUsername(e.target.value)
   }
@@ -35,7 +43,7 @@ const Home = () => {
         <button className="btn btn-outline-success" onClick={submitName} style={{minWidth: "96px"}}>Start Quiz</button>
       </form>
 
-      <ins className="adsbygoogle"
+      {/* <ins className="adsbygoogle"
         style={{display:"block"}}
         data-ad-client="ca-pub-6847172398832884"
         data-ad-slot="4979889589"
@@ -44,8 +52,10 @@ const Home = () => {
       </ins>
      <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    </script> */}
     </div>
+    {/* //mordoops.com/4/5652833
+    //nossairt.net/4/5652834 */}
     </div>
     </div>
   )

@@ -17,6 +17,14 @@ const Canvas = (props) => {
     let imgRef = useRef()
     var link = document.createElement('a');
     link.download = 'personality-paws-certificate.png';
+
+
+    useEffect(()=>{
+        let c2 = document.getElementById('canva2')
+        c2.onload = (()=>{
+            window.location.reload()
+        })
+    },[])
     
                 
     useEffect(() => {
@@ -79,6 +87,7 @@ const Canvas = (props) => {
                 ctx2.textAlign = "center"; 
                 ctx2.fillText(props.animal[0].toUpperCase() + props.animal.substr(1) + '.', 1000, 1000);
                 
+
                 // var link = document.createElement('a');
                 // link.download = 'personality-paws-certificate.png';
                 link.href = document.getElementById('canva2').toDataURL()

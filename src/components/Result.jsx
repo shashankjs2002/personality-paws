@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Canvas from './Canvas'
 import { useEffect } from 'react'
 
+
 const Result = () => {
 
   const navigate = useNavigate()
@@ -10,8 +11,11 @@ const Result = () => {
   useEffect(() => {
     if(localStorage.getItem('stage') != 'result'){
       navigate('/')
-    }  
+    } 
+    // window.location.reload()
   }, [])
+
+ 
 
   const resetQuiz = () => {
     localStorage.setItem('stage','home')
@@ -35,7 +39,7 @@ const Result = () => {
         <button onClick={resetQuiz} >Take another quiz</button>
       </div>
     </div>
-    <ins className="adsbygoogle"
+    {/* <ins className="adsbygoogle"
         style={{display:"block"}}
         data-ad-client="ca-pub-6847172398832884"
         data-ad-slot="4979889589"
@@ -44,7 +48,9 @@ const Result = () => {
       </ins>
      <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    </script> */}
+    {/* <!-- Vignette banner --> */}
+     <script src="./VigenetteBanner.jsx"></script>
     </div>
     </div>
   )
